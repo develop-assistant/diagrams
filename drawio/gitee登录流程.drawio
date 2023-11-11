@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T14:08:23.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mYMCkRPPw_JlmSxmi1rC" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T14:09:41.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PAxj1Xk-GVhSVp7PEUS1" version="20.8.10" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
-    <mxGraphModel dx="995" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1405" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,10 +87,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-28" value="org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="160" width="600" height="60" as="geometry" />
+          <mxGeometry x="235" y="160" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7WuJgeiwE0rYBo4buCux-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-29" target="7WuJgeiwE0rYBo4buCux-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WuJgeiwE0rYBo4buCux-33" value="手动授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-32">
+          <mxGeometry x="-0.3566" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-29" value="&lt;pre style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;/oauth2/authorization&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="240" height="60" as="geometry" />
+          <mxGeometry x="415" y="270" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

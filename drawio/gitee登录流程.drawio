@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T14:32:50.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="20jma7Bx7j4t6byvSU2A" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T14:33:17.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vQ9NQ4g-PAl4V4YKqahd" version="20.8.10" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
     <mxGraphModel dx="1990" dy="2266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,15 +14,15 @@
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-1" target="7WuJgeiwE0rYBo4buCux-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="870" as="targetPoint" />
+            <mxPoint x="1240" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-1" value="org.springframework.security.oauth2.client.authentication.OAuth2LoginAuthenticationProvider#authenticate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="985" y="545" width="610" height="60" as="geometry" />
+          <mxGeometry x="935" y="125" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-5" target="7WuJgeiwE0rYBo4buCux-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2395" y="850" as="targetPoint" />
+            <mxPoint x="2345" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-3" value="请求gitee-token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-7">
@@ -31,14 +31,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-5" value="org.springframework.security.oauth2.client.authentication.OAuth2AuthorizationCodeAuthenticationProvider#authenticate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1665" y="650" width="660" height="60" as="geometry" />
+          <mxGeometry x="1615" y="230" width="660" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-8" value="org.springframework.security.oauth2.client.endpoint.DefaultAuthorizationCodeTokenResponseClient#getTokenResponse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2325" y="770" width="680" height="60" as="geometry" />
+          <mxGeometry x="2275" y="350" width="680" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-12" target="7WuJgeiwE0rYBo4buCux-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1775" y="890" as="targetPoint" />
+            <mxPoint x="1725" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-6" value="获取gitee用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-14">
@@ -48,7 +48,7 @@
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7WuJgeiwE0rYBo4buCux-12" target="7WuJgeiwE0rYBo4buCux-18" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="980" as="targetPoint" />
+            <mxPoint x="1240" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-7" value="生成token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-17">
@@ -57,18 +57,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-12" value="org.springframework.security.oauth2.client.userinfo.OAuth2UserService#loadUser" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1056.25" y="770" width="467.5" height="60" as="geometry" />
+          <mxGeometry x="1006.25" y="350" width="467.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-15" value="org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService#getResponse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1665" y="770" width="590" height="60" as="geometry" />
+          <mxGeometry x="1615" y="350" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-18" target="YZLFp5UPAa1ebA0SYYyl-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="1060" as="targetPoint" />
+            <mxPoint x="1240" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-18" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;OAuth2LoginAuthenticationToken&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1147.5" y="880" width="285" height="60" as="geometry" />
+          <mxGeometry x="1097.5" y="460" width="285" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-20" target="7WuJgeiwE0rYBo4buCux-1">
           <mxGeometry relative="1" as="geometry" />
@@ -79,19 +79,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-20" value="org.springframework.security.authentication.ProviderManager#authenticate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="765" y="440" width="440" height="60" as="geometry" />
+          <mxGeometry x="715" y="20" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.48;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-24" target="7WuJgeiwE0rYBo4buCux-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-24" value="org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter#attemptAuthentication" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="285" y="330" width="590" height="60" as="geometry" />
+          <mxGeometry x="235" y="-90" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-26" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/login/oauth2/code/*&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="660" y="280" width="190" height="60" as="geometry" />
+          <mxGeometry x="610" y="-140" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-27" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="515" y="-20" width="20" height="60" as="geometry" />
+          <mxGeometry x="465" y="-440" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-28" target="7WuJgeiwE0rYBo4buCux-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -102,36 +102,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-28" value="org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="40" width="600" height="60" as="geometry" />
+          <mxGeometry x="230" y="-380" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-29" target="7WuJgeiwE0rYBo4buCux-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-29" value="&lt;pre style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;/oauth2/authorization&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="140" width="240" height="60" as="geometry" />
+          <mxGeometry x="410" y="-280" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-34" target="7WuJgeiwE0rYBo4buCux-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-34" value="授权" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="-190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-37" value="登录页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="720" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="670" y="-270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-38" value="授权页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="650" y="240" width="60" height="30" as="geometry" />
+          <mxGeometry x="600" y="-180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-2" target="YZLFp5UPAa1ebA0SYYyl-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290.074074074074" y="1090" as="targetPoint" />
+            <mxPoint x="1240.074074074074" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-2" value="联合登录code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-11" value="认证中心token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230.004074074074" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180.004074074074" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T14:32:09.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OhbXLdBSMa2uxoyB0zDc" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T14:32:50.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="20jma7Bx7j4t6byvSU2A" version="20.8.10" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
-    <mxGraphModel dx="884" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1990" dy="2266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
             <mxPoint x="2395" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-3" value="请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-7">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-3" value="请求gitee-token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-7">
           <mxGeometry x="-0.1011" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -41,7 +41,7 @@
             <mxPoint x="1775" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-6" value="获取用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-14">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-6" value="获取gitee用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-14">
           <mxGeometry x="-0.2596" y="8" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-18" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;OAuth2LoginAuthenticationToken&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1147.5" y="890" width="285" height="60" as="geometry" />
+          <mxGeometry x="1147.5" y="880" width="285" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-20" target="7WuJgeiwE0rYBo4buCux-1">
           <mxGeometry relative="1" as="geometry" />
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-2" value="联合登录code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="1230" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-11" value="认证中心token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1230.004074074074" y="1070" width="120" height="60" as="geometry" />

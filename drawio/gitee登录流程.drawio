@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T14:33:17.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vQ9NQ4g-PAl4V4YKqahd" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T15:21:40.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wtzSTC0iIbT4ugaAFZvH" version="20.8.10" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
-    <mxGraphModel dx="1990" dy="2266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,16 +122,29 @@
         <mxCell id="7WuJgeiwE0rYBo4buCux-38" value="授权页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="-180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-2" target="YZLFp5UPAa1ebA0SYYyl-11">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-2" target="YZLFp5UPAa1ebA0SYYyl-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240.074074074074" y="670" as="targetPoint" />
+            <mxPoint x="1239.7142857142858" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-15" value="获取token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZLFp5UPAa1ebA0SYYyl-12">
+          <mxGeometry x="-0.4698" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-2" value="联合登录code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-11" value="认证中心token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180.004074074074" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180.004074074074" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-13" target="YZLFp5UPAa1ebA0SYYyl-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1239.9899999999998" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-13" value="org.springframework.security.oauth2.server.authorization.web.OAuth2TokenEndpointFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="924.85" y="670" width="630.29" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

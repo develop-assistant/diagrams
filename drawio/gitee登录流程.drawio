@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T13:36:18.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nkhY8HqIQJHC8WkrdtTQ" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T13:50:32.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9Q8ZxBsMow630164-kIl" version="20.8.10" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
-    <mxGraphModel dx="4776" dy="3459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1085" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
         <mxCell id="7WuJgeiwE0rYBo4buCux-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.48;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-24" target="7WuJgeiwE0rYBo4buCux-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-24" value="org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter#attemptAuthentication" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7WuJgeiwE0rYBo4buCux-24" value="org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter#attemptAuthentication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="235" y="-90" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-26" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/login/oauth2/code/gitee 接收验证码&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -101,7 +101,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-28" value="org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7WuJgeiwE0rYBo4buCux-28" value="org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="230" y="-380" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-29" target="7WuJgeiwE0rYBo4buCux-34" edge="1">

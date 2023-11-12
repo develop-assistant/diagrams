@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T14:13:58.931Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EIXoxKKCJyvx_WO0YKYj" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T14:17:49.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NlZRTUVm0_taCcT0xPBr" version="20.8.10" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
     <mxGraphModel dx="1085" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -169,10 +169,13 @@
           <mxGeometry x="1134.99" y="790" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-38" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/token&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1555" y="1090" width="130" height="60" as="geometry" />
+          <mxGeometry x="1660" y="1150" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZLFp5UPAa1ebA0SYYyl-39" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/authorization&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="860" y="-380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-40" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;OAuth2ClientAuthenticationFilter&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1567" y="1080" width="316" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

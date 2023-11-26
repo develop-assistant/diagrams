@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T14:19:38.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R5MOoczLOLGxK7VQTFQw" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T04:52:18.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vRmuNcGlcFo3z_-r3TGX" version="22.1.3" type="github">
   <diagram name="第 1 页" id="EFMNhmo5W3_Umspm_e9S">
-    <mxGraphModel dx="1085" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2171" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7WuJgeiwE0rYBo4buCux-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-1" target="7WuJgeiwE0rYBo4buCux-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-4" value="判断scope不携带openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-10">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-4" value="判断scope不携带openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7WuJgeiwE0rYBo4buCux-10" vertex="1" connectable="0">
           <mxGeometry x="-0.0358" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -25,7 +25,7 @@
             <mxPoint x="2345" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-3" value="请求gitee-token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-7">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-3" value="请求gitee-token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7WuJgeiwE0rYBo4buCux-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1011" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -41,7 +41,7 @@
             <mxPoint x="1725" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-6" value="获取gitee用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-14">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-6" value="获取gitee用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7WuJgeiwE0rYBo4buCux-14" vertex="1" connectable="0">
           <mxGeometry x="-0.2596" y="8" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -51,7 +51,7 @@
             <mxPoint x="1240" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-7" value="生成token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WuJgeiwE0rYBo4buCux-17">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-7" value="生成token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7WuJgeiwE0rYBo4buCux-17" vertex="1" connectable="0">
           <mxGeometry x="-0.0519" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -62,7 +62,7 @@
         <mxCell id="7WuJgeiwE0rYBo4buCux-15" value="org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService#getResponse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1615" y="350" width="590" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-18" target="YZLFp5UPAa1ebA0SYYyl-22">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-18" target="YZLFp5UPAa1ebA0SYYyl-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1240" y="580" as="targetPoint" />
           </mxGeometry>
@@ -70,10 +70,10 @@
         <mxCell id="7WuJgeiwE0rYBo4buCux-18" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;OAuth2LoginAuthenticationToken&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1097.5" y="460" width="285" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-20" target="7WuJgeiwE0rYBo4buCux-1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-20" target="7WuJgeiwE0rYBo4buCux-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-9" value="根据code获取token流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZLFp5UPAa1ebA0SYYyl-8">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-9" value="根据code获取token流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YZLFp5UPAa1ebA0SYYyl-8" vertex="1" connectable="0">
           <mxGeometry x="0.3174" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -88,100 +88,105 @@
           <mxGeometry x="235" y="-90" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-26" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/login/oauth2/code/* 接收验证码&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="585" y="-140" width="270" height="60" as="geometry" />
+          <mxGeometry x="850" y="-150" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-27" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="465" y="-440" width="20" height="60" as="geometry" />
+          <mxGeometry x="465" y="-590" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-28" target="7WuJgeiwE0rYBo4buCux-29" edge="1">
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WuJgeiwE0rYBo4buCux-28" target="AHjIOjGdVvNe5BcHEUPR-1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-31" value="重定向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7WuJgeiwE0rYBo4buCux-30" vertex="1" connectable="0">
-          <mxGeometry x="-0.17" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="7WuJgeiwE0rYBo4buCux-28" value="org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="230" y="-380" width="600" height="60" as="geometry" />
+          <mxGeometry x="230" y="-520" width="600" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-29" target="7WuJgeiwE0rYBo4buCux-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-29" value="&lt;pre style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;见provider配置中的authorization-uri，registration中的redirect-uri用于接收code&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="207.5" y="-270" width="645" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7WuJgeiwE0rYBo4buCux-34" target="7WuJgeiwE0rYBo4buCux-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WuJgeiwE0rYBo4buCux-34" value="授权" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="-190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-11" value="认证中心token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-11" value="认证中心token" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1179.994074074074" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-13" target="YZLFp5UPAa1ebA0SYYyl-11">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-13" target="YZLFp5UPAa1ebA0SYYyl-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="565.1299999999998" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-13" value="org.springframework.security.oauth2.server.authorization.web.OAuth2TokenEndpointFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-13" value="org.springframework.security.oauth2.server.authorization.web.OAuth2TokenEndpointFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="924.85" y="1211" width="630.29" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-19" target="7WuJgeiwE0rYBo4buCux-28">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-19" target="7WuJgeiwE0rYBo4buCux-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-19" value="页面访问 /oauth2/authorization/gitee" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="-500" width="290" height="60" as="geometry" />
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-19" value="页面访问 /oauth2/authorization/gitee" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="-650" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-22" target="YZLFp5UPAa1ebA0SYYyl-25">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-22" target="YZLFp5UPAa1ebA0SYYyl-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-22" value="org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.successfulAuthentication" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-22" value="org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.successfulAuthentication" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="600" width="640" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-24" target="YZLFp5UPAa1ebA0SYYyl-29">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-24" target="YZLFp5UPAa1ebA0SYYyl-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1239.6566666666665" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-24" value="联合登录code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-24" value="联合登录code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1179.99" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-25" target="YZLFp5UPAa1ebA0SYYyl-32">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-25" target="YZLFp5UPAa1ebA0SYYyl-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-25" value="DefaultRedirectStrategy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-25" value="DefaultRedirectStrategy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="690" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-29" target="YZLFp5UPAa1ebA0SYYyl-40">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-29" target="YZLFp5UPAa1ebA0SYYyl-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-29" value="org.springframework.security.oauth2.server.authorization.web.OAuth2ClientAuthenticationFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-29" value="org.springframework.security.oauth2.server.authorization.web.OAuth2ClientAuthenticationFilter#doFilterInternal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="929.83" y="980" width="620.33" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-31" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/authorize&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-31" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/authorize&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1370" y="790" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-32" target="YZLFp5UPAa1ebA0SYYyl-24">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-32" target="YZLFp5UPAa1ebA0SYYyl-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-32" value="OAuth2AuthorizationEndpointFilter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-32" value="OAuth2AuthorizationEndpointFilter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1134.99" y="790" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-38" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/token&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-38" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/token&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1100" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-39" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/authorization&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="860" y="-380" width="200" height="60" as="geometry" />
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-39" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/authorization&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="860" y="-530" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZLFp5UPAa1ebA0SYYyl-40" target="YZLFp5UPAa1ebA0SYYyl-13">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YZLFp5UPAa1ebA0SYYyl-40" target="YZLFp5UPAa1ebA0SYYyl-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-40" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;OAuth2ClientAuthenticationFilter&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-40" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;OAuth2ClientAuthenticationFilter&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1082" y="1100" width="316" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZLFp5UPAa1ebA0SYYyl-43" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/token&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="YZLFp5UPAa1ebA0SYYyl-43" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;/oauth2/token&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1570" y="1211" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AHjIOjGdVvNe5BcHEUPR-1" target="AHjIOjGdVvNe5BcHEUPR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-13" value="gitee授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AHjIOjGdVvNe5BcHEUPR-5">
+          <mxGeometry x="-0.0368" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-1" value="org.springframework.security.oauth2.client.web.DefaultOAuth2AuthorizationRequestResolver#resolve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223.75" y="-393" width="612.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-2" value="三方重定向地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="-370" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AHjIOjGdVvNe5BcHEUPR-4" target="7WuJgeiwE0rYBo4buCux-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AHjIOjGdVvNe5BcHEUPR-4" value="gitee授权后重定向至&amp;nbsp;/login/oauth2/code/gitee?code=" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-253" width="540" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T08:22:29.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wbnxpi7Eh6VoyG3NHfh-" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T08:30:32.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nnRmClgb7RqgATprBZoN" version="22.1.4" type="github">
   <diagram name="第 1 页" id="4WuXb1imw03VXbQNnLiD">
     <mxGraphModel dx="1194" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="GO_XG3JIyMTSq-CO-RPh-1" value="重写OAuth2AuthorizationRequestResolver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="560" y="245" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GO_XG3JIyMTSq-CO-RPh-2" value="重写OAuth2AuthorizationCodeGrantRequestEntityConverter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
